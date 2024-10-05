@@ -1,0 +1,62 @@
+.background-img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* filter: brightness(0.5); */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    z-index: 0; /* Background stays behind */
+    color: white;
+  }
+
+  .background-img{
+    background-image: url(../../assets/images/about-section.jpg);
+  }
+
+  .background-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Darkens the background for contrast */
+    z-index: -1; /* Ensures this overlay stays behind the text */
+  }
+  .info-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #000; /* Background color similar to the image */
+  }
+  
+  .info-box {
+    flex: 1 1 calc(50% - 20px); /* Makes sure two boxes appear side by side */
+    background-color: #111; /* Slightly lighter black for each section */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .info-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .info-box p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .info-box {
+      flex: 1 1 100%;
+    }
+  }
+  
+  

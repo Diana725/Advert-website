@@ -1,0 +1,17 @@
+.advertising-formats {
+    padding: 50px 0;
+}
+
+.advertising-formats .icon {
+    margin-bottom: 20px;
+}
+
+.advertising-formats h4 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.advertising-formats img {
+    max-width: 300px; /* Adjust the size based on your icons */
+    height: auto;
+}

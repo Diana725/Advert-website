@@ -1,0 +1,17 @@
+.advertising-solutions {
+    padding: 50px 0;
+}
+
+.advertising-solutions .icon {
+    margin-bottom: 20px;
+}
+
+.advertising-solutions h4 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.advertising-solutions img {
+    max-width: 80px; /* Adjust the size based on your icons */
+    height: auto;
+}

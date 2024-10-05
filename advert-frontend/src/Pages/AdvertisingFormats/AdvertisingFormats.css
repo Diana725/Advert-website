@@ -1,0 +1,121 @@
+/* General styling for advertising formats */
+/* .advertising-formats {
+    padding: 20px;
+  } */
+  
+  /* Styling each format section */
+  .format-section {
+    margin-bottom: 50px;
+    position: relative;
+  }
+  
+  /* Ensuring the title is on top of the background */
+  .format-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: white;
+    position: relative;
+    z-index: 1; /* Ensures the title is above the background */
+  }
+  
+  /* Flexbox to structure the content */
+  .format-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Text styling */
+  .text-content {
+    max-width: 80%;
+    margin-right: 30px;
+  }
+  
+  .text-content h3 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    z-index: 1;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .text-content p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+  
+  /* Image styling */
+  .format-image {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the background image of the On-Car section */
+  .background-img1, .background-img2, .background-img3 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* filter: brightness(0.5); */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    z-index: 0; /* Background stays behind */
+    color: white;
+  }
+  
+  /* On-Car and In-Car section backgrounds */
+  .background-img1 {
+    background-image: url(../../assets/images/pexels-marianna-15577-69206.jpg);
+  }
+  
+  .background-img2 {
+    background-image: url(../../assets/images/pexels-boa-vision-914571-2239598.jpg);
+  }
+  .background-img3{
+    background-image: url(../../assets/images/pexels-marianna-15577-69206.jpg);
+  }
+  /* Ensuring background is behind the content */
+  .background-img1::before, .background-img2::before, .background-img3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Darkens the background for contrast */
+    z-index: -1; /* Ensures this overlay stays behind the text */
+  }
+  
+  /* Contact button styling */
+  .contact-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .contact-button button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button button:hover {
+    background-color: #27ae60;
+  }
+  

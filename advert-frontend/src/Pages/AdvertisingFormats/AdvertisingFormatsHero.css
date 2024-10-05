@@ -1,0 +1,42 @@
+.advert-hero-section {
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .advert-hero-image-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .advert-hero-image {
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: none;
+    /* filter: brightness(0.5); */
+    /* transition: transform 0.4s ease-in-out;  */
+  }
+  
+
+  .advert-hero-image-container:hover .hero-image {
+    transform: none; 
+  }
+  
+  .advert-hero-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1, p {
+    z-index: 1;
+  }
+  

@@ -1,0 +1,26 @@
+.ad-solution-image{
+    height: 400px;
+    width: 100%;
+}
+
+.ad-solutions {
+    padding: 50px 0;
+}
+
+.ad-solutions .icon {
+    margin-bottom: 10px;
+}
+
+.ad-solutions h4 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.ad-solutions img {
+    max-width: 80px; /* Adjust the size based on your icons */
+    height: auto;
+}
+
+.icon-container{
+    margin-right: 42px;
+}
