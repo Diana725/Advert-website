@@ -18,13 +18,11 @@ const Partners = () => {
             {/* Right Column: Text and Button */}
             <div className="col-md-6">
               <p className="lead">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                non porttitor risus, quis bibendum orci. Maecenas orci turpis,
-                cursus non elit vitae, rutrum accumsan risus. Nam commodo tortor
-                urna, sit amet congue ex pulvinar et. Suspendisse bibendum nulla
-                nunc, nec efficitur risus vehicula non. Sed maximus imperdiet
-                placerat. Phasellus bibendum porta risus, at lacinia massa
-                dictum id. Quisque ac placerat nulla.
+                Our clients and partners are brands that trust us to help them
+                connect more effectively with their customers and have
+                experienced the success of taxi advertising firsthand. We’ve
+                collaborated with over 20 brands, crafting creative and targeted
+                marketing campaigns that deliver measurable results.
               </p>
             </div>
           </div>

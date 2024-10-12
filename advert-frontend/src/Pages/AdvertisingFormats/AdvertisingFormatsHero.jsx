@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import hero_image from "../../assets/images/pexels-tim-samuel-5835053.jpg";
+import hero_image from "../../assets/images/maiko_img_4.jpeg";
 import "./AdvertisingFormatsHero.css";
 import Navbar from "../../components/Navbar/Navbar";
 
@@ -18,7 +18,12 @@ const AdvertisingFormatsHero = () => {
         <div className="container text-center advert-hero-content">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="display-4 fw-bold">Our Advertising Formats</h1>
+              <h1
+                className="display-4 fw-bold"
+                style={{ backgroundColor: "#212529" }}
+              >
+                Our Advertising Formats
+              </h1>
             </div>
           </div>
         </div>

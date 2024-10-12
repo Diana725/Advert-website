@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import hero_image from "../assets/images/pexels-tim-samuel-5835053.jpg";
+import hero_image from "../assets/images/maiko_img_1.jpeg";
 import "./Hero.css";
 import Navbar from "./Navbar/Navbar";
 
@@ -18,10 +18,10 @@ const HeroSection = () => {
         <div className="container text-center hero-content">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="display-4 fw-bold">Make Your Move</h1>
-              <p className="lead">Advertise with us on premium taxi screens.</p>
+              <h1 className="display-4 fw-bold">Street Level Advertising</h1>
+              <p className="lead">Reach Your Audience Anytime Anywhere!</p>
               <a href="/contact" className="btn btn-primary btn-lg mt-3">
-                Get in Touch
+                Advertise With Us
               </a>
             </div>
           </div>

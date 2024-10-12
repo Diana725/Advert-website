@@ -54,14 +54,14 @@ const ContactForm = () => {
     <div style={styles.container}>
       <ContactHero />
       <div>
-        <h2>Get Started Advertising With TaxiAd Today!</h2>
-        <p style={{ fontSize: 30 }}>
+        <h2>Get Started Advertising With AdLite Today!</h2>
+        {/* <p style={{ fontSize: 30 }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non
           porttitor risus, quis bibendum orci. Maecenas orci turpis, cursus non
           elit vitae, rutrum accumsan risus. Nam commodo tortor urna, sit amet
           congue ex pulvinar et. Suspendisse bibendum nulla nunc, nec efficitur
           risus vehicula non.
-        </p>
+        </p> */}
       </div>
       <div style={styles.contentWrapper}>
         <h1 style={styles.header}>Contact Us</h1>

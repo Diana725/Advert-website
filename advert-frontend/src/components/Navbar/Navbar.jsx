@@ -28,7 +28,7 @@ function Navbar() {
     >
       <div className="container">
         <NavLink className="navbar-brand fw-bold fs-3 text-white" to="/">
-          TaxiAd
+          AdLite Media
         </NavLink>
         <button
           className="navbar-toggler"

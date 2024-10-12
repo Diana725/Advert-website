@@ -3,8 +3,8 @@ import "./AdvertisingFormats.css";
 import AdvertisingFormatsHero from "./AdvertisingFormatsHero";
 import Banner from "./Banner";
 import OnCar from "./On-CarImage";
-import digital_top from "../../assets/images/Digital-Tops.png";
-import car_wrap from "../../assets/images/pexels-ibrahimboran-296492.jpg";
+import digital_top from "../../assets/images/maiko_img_8.jpeg";
+import car_wrap from "../../assets/images/maiko_img_9.jpeg";
 import AroundCar from "./AroundCar";
 import { within } from "@testing-library/react";
 
@@ -12,7 +12,7 @@ function AdvertisingFormats() {
   return (
     <div>
       <AdvertisingFormatsHero />
-      <Banner />
+      {/* <Banner /> */}
       <div className="advertising-formats">
         {/* On-Car Section */}
         <section className="format-section">
@@ -21,40 +21,26 @@ function AdvertisingFormats() {
               className="format-title fw-bold"
               style={{ fontSize: 60, backgroundColor: "#212529", padding: 70 }}
             >
-              TaxiAd On-Car Advertising
+              AdLite On-Car Advertising
             </h2>
           </div>
           <div className="format-content">
             <div className="text-content">
-              <h2>Digital Tops</h2>
+              <h2>Taxi Tops</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                et ex leo. Quisque dapibus ex quis ornare lacinia. Proin rutrum
-                blandit metus ut aliquam. Ut vitae vulputate leo, at semper
-                urna. Curabitur felis sem, ornare in libero et, hendrerit
-                faucibus erat. Duis velit tortor, iaculis non convallis ac,
-                placerat vel diam. Ut vel blandit odio, sit amet efficitur
-                massa. Nullam rhoncus enim viverra iaculis cursus.
+                Our taxi tops serve as your ‘mobile billboards,’ providing a
+                double-sided platform to showcase your brand on the move, day
+                and night. Strategically designed and angled for maximum
+                visibility, they offer a large display area, ensuring your ad
+                stands out, even from a distance. At night, the well-lit
+                displays make your ad even more eye-catching, enhancing its
+                impact.
                 <OnCar />
-                Suspendisse vehicula ligula et neque congue, et dapibus velit
-                imperdiet. Curabitur faucibus, ipsum ut dapibus placerat, metus
-                erat laoreet ante, non commodo diam justo sit amet massa.
-                Maecenas ac venenatis tellus, a dapibus mauris. Integer cursus
-                posuere ante eget interdum. Nulla suscipit vitae quam vel
-                laoreet. Suspendisse in tristique libero.
-                <br />
-                <br />
-                Aliquam aliquet libero quis metus volutpat, at vehicula neque
-                iaculis. Morbi congue nisl et massa tincidunt, sit amet dictum
-                augue finibus. Quisque molestie non purus eu cursus. Maecenas
-                felis diam, pellentesque tincidunt tellus ultrices, condimentum
-                venenatis sem. Donec rutrum viverra odio a dapibus. Donec
-                egestas est eu luctus hendrerit. Sed sit amet nisi augue.
               </p>
 
               <section style={{ paddingBottom: 80 }}>
-                <h3 className="pb-5" style={{ fontSize: 50, paddingTop: 70 }}>
-                  Industry-Leading Digital Tops
+                <h3 className="pb-5 fs-3 fw-bold" style={{ paddingTop: 10 }}>
+                  Why Taxi-Top Ads
                 </h3>
                 <div>
                   <div className="row justify-content-space-between ">
@@ -77,28 +63,22 @@ function AdvertisingFormats() {
                       <ul className="fs-5">
                         <li className="py-2">
                           {" "}
-                          Donec egestas est eu luctus hendrerit. Sed sit amet
-                          nisi augue.
+                          Get 100% share of voice (SOV), meaning the display
+                          will only advertise your brand
                         </li>
                         <li className="py-3">
                           {" "}
-                          Donec egestas est eu luctus hendrerit. Sed sit amet
-                          nisi augue.
+                          Has a large area to clearly capture your message
                         </li>
                         <li className="py-3">
                           {" "}
-                          Donec egestas est eu luctus hendrerit. Sed sit amet
-                          nisi augue.
+                          Lights up at night making the display more
+                          eye-catching giving your ad more impact
                         </li>
                         <li className="py-3">
                           {" "}
-                          Donec egestas est eu luctus hendrerit. Sed sit amet
-                          nisi augue.
-                        </li>
-                        <li className="py-3">
-                          {" "}
-                          Donec egestas est eu luctus hendrerit. Sed sit amet
-                          nisi augue.
+                          Flexible to come up with creative campaigns and you
+                          can change ads at a low cost
                         </li>
                       </ul>
                     </div>
@@ -106,7 +86,7 @@ function AdvertisingFormats() {
                 </div>
               </section>
             </div>
-            <div className="background-img3">
+            {/* <div className="background-img3">
               <h2
                 className="mt-5 fw-bold"
                 style={{ fontSize: 40, marginLeft: 150, marginRight: 150 }}
@@ -122,36 +102,7 @@ function AdvertisingFormats() {
                 placerat vel diam. Ut vel blandit odio, sit amet efficitur
                 massa.
               </p>
-            </div>
-            <section className="mission-section py-5 mt-5">
-              <div className="container">
-                <div className="row align-items-center">
-                  {/* <h1 fw-bold>Our Mission</h1> */}
-                  {/* Left Column: Image */}
-                  <div className="col-md-6">
-                    <img
-                      src={car_wrap}
-                      alt="TaxiAd Mission"
-                      className="img-fluid rounded"
-                      style={{ maxHeight: 600, maxWidth: 600 }}
-                    />
-                  </div>
-
-                  {/* Right Column: Text and Button */}
-                  <div className="col-md-6">
-                    <h2 className="display-5 fw-bold mb-5">Car Wraps</h2>
-                    <p className="lead py-4">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Fusce non porttitor risus, quis bibendum orci. Maecenas
-                      orci turpis, cursus non elit vitae, rutrum accumsan risus.
-                      Nam commodo tortor urna, sit amet congue ex pulvinar et.
-                      Suspendisse bibendum nulla nunc, nec efficitur risus
-                      vehicula non.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </section>
+            </div> */}
 
             {/* <img
               src="/images/on-car-example.jpg"
@@ -168,21 +119,22 @@ function AdvertisingFormats() {
               className="format-title"
               style={{ fontSize: 60, backgroundColor: "#212529", padding: 70 }}
             >
-              TaxiAd In-Car Advertising
+              AdLite In-Car Advertising
             </h2>
           </div>
           <div className="format-content">
             <div className="text-content">
-              <h2>In-Car Posters</h2>
+              <h2>In-Car Displays</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                non porttitor risus, quis bibendum orci. Maecenas orci turpis,
-                cursus non elit vitae, rutrum accumsan risus. Nam commodo tortor
-                urna, sit amet congue ex pulvinar et. Suspendisse bibendum nulla
-                nunc, nec efficitur risus vehicula non.
+                Our in-car displays target passengers inside the taxi, offering
+                your brand direct interaction with potential customers.
+                Throughout the ride, passengers engage with your ad, making the
+                experience more personalized and targeted. It's also an
+                excellent platform for tracking the progress and effectiveness
+                of your campaign.
               </p>
               <br />
-              <p>Features: </p>
+              <p className="fw-bold fs-2">Why In-Car Ads? </p>
               <div className="format-section text-content format-content">
                 <div className="row align-items-center justify-content-space-between ">
                   {/* Right Column: Image (swapped) */}
@@ -192,9 +144,9 @@ function AdvertisingFormats() {
                       alt="Digital-Tops"
                       className="img-fluid rounded"
                       style={{
-                        maxWidth: 700,
-                        maxHeight: 700,
-                        paddingLeft: 30,
+                        maxWidth: 600,
+                        maxHeight: 600,
+                        paddingLeft: 50,
                       }}
                     />
                   </div>
@@ -204,23 +156,21 @@ function AdvertisingFormats() {
                     <ul className="fs-5">
                       <li className="py-2">
                         {" "}
-                        Donec egestas est eu luctus hendrerit.
+                        Get a direct interaction with your potential customers
                       </li>
                       <li className="py-3">
                         {" "}
-                        Donec egestas est eu luctus hendrerit.
+                        Great platform for coming up with interactive and social
+                        ad campaigns (e.g scan QR code, USSD code)
                       </li>
                       <li className="py-3">
                         {" "}
-                        Donec egestas est eu luctus hendrerit.
+                        Track the campaign through the various interactions
                       </li>
                       <li className="py-3">
                         {" "}
-                        Donec egestas est eu luctus hendrerit.
-                      </li>
-                      <li className="py-3">
-                        {" "}
-                        Donec egestas est eu luctus hendrerit.
+                        Passengers have extended exposure to your ad giving it
+                        better engagement and brand recall
                       </li>
                     </ul>
                   </div>
@@ -233,21 +183,31 @@ function AdvertisingFormats() {
               className="format-title"
               style={{ fontSize: 60, paddingTop: 70 }}
             >
-              TaxiAd Around-Car Advertising
+              AdLite Around-Car Advertising
             </h2>
-            <p style={{ color: "white", paddingLeft: 50 }}>
+            <p style={{ color: "white", paddingLeft: 50, fontSize: 20 }}>
               {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non
-              porttitor risus, quis bibendum orci. Maecenas orci turpis, cursus
-              non elit vitae, rutrum accumsan risus. Nam commodo tortor urna,
-              sit amet congue ex pulvinar et. Suspendisse bibendum nulla nunc,
-              nec efficitur risus vehicula non. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Etiam et ex leo. Quisque dapibus ex
-              quis ornare lacinia. Proin rutrum blandit metus ut aliquam. Ut
-              vitae vulputate leo, at semper urna. Curabitur felis sem, ornare
-              in libero et, hendrerit faucibus erat. Duis velit tortor, iaculis
-              non convallis ac, placerat vel diam. Ut vel blandit odio, sit amet
-              efficitur massa.
+              For larger campaigns, we offer full taxi wraps combined with taxi
+              top and in-car displays for maximum visibility. Let our taxis
+              become your mobile billboards, providing expansive space to
+              showcase your brand and reach a wider audience.
+            </p>
+
+            <AroundCar />
+            <h2
+              className="format-title"
+              style={{ fontSize: 60, paddingTop: 20 }}
+            >
+              Experiential Offering
+            </h2>
+            <p style={{ color: "white", paddingLeft: 50, fontSize: 20 }}>
+              {" "}
+              Beyond offering a platform, taxi advertising allows for immersive
+              experiential marketing campaigns. Whether it’s a roadshow for your
+              company launch, making a statement at your events, or executing
+              creative campaigns, our taxis provide a unique and flexible
+              solution. With endless possibilities, our innovative approach
+              ensures your brand stands out and leaves a lasting impression.
             </p>
             <AroundCar />
           </div>
@@ -255,7 +215,7 @@ function AdvertisingFormats() {
 
         {/* Contact Button */}
         <div className="contact-button">
-          <p className="fs-3 fw-bold">Want To Advertise With TaxiAd?</p>
+          <p className="fs-3 fw-bold">Want To Advertise With AdLite?</p>
           <button className="mx-5">Contact Us</button>
         </div>
       </div>

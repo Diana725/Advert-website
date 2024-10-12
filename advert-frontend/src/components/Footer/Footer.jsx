@@ -9,7 +9,7 @@ function Footer() {
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
             <h5 className="text-uppercase text-white">About Us</h5>
             <p className="text-white">
-              TaxiAd is the leading taxi and rideshare vehicle advertising
+              AdLite Media is the leading taxi and rideshare vehicle advertising
               network. We are helping brands connect with people on the go.
             </p>
           </div>
@@ -55,12 +55,12 @@ function Footer() {
             <ul className="list-unstyled mb-0">
               <li>
                 <a href="tel:+1234567890" className="text-white">
-                  +1 234 567 890
+                  0700 012 012
                 </a>
               </li>
               <li>
                 <a href="mailto:info@firefly.com" className="text-white">
-                  info@TaxiAD.com
+                  marketing.adlite@gmail.com
                 </a>
               </li>
             </ul>
@@ -68,7 +68,7 @@ function Footer() {
         </div>
       </div>
       <div className="text-center p-3 bg-dark text-white">
-        &copy; 2024 TaxiAd Advertising. All rights reserved.
+        &copy; AdLite Media. All rights reserved.
       </div>
     </footer>
   );

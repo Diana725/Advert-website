@@ -11,7 +11,7 @@
     font-weight: 600;
 }
 
-.advertising-formats img {
-    max-width: 300px; /* Adjust the size based on your icons */
-    height: auto;
+.advertising-formats .taxi_top_img {
+    max-width: 400px; /* Adjust the size based on your icons */
+    height: 200px;
 }

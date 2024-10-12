@@ -10,7 +10,7 @@ import imageMombasa from "../../assets/images/pexels-boa-vision-914571-2239598.j
 const locations = [
   { name: "Nakuru", img: imageNakuru },
   { name: "Nairobi", img: imageNairobi },
-  { name: "Mombasa", img: imageMombasa },
+  { name: "Eldoret", img: imageMombasa },
 ];
 
 const Locations = () => {

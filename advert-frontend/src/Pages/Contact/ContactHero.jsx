@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import hero_image from "../../assets/images/pexels-tim-samuel-5835053.jpg";
+import hero_image from "../../assets/images/maiko_img_3.jpeg";
 import "./ContactHero.css";
 import Navbar from "../../components/Navbar/Navbar";
 
@@ -15,7 +15,7 @@ const ContactHero = () => {
             backgroundImage: `url(${hero_image})`,
           }}
         ></div>
-        <div className="container text-center contact-hero-content">
+        {/* <div className="container text-center contact-hero-content">
           <div className="row">
             <div className="col-md-12">
               <h1 className="display-4 fw-bold">
@@ -23,7 +23,7 @@ const ContactHero = () => {
               </h1>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

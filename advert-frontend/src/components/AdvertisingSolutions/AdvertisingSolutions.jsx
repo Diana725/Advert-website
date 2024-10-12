@@ -2,7 +2,7 @@ import React from "react";
 import "./AdvertisingSolutions.css"; // You can add custom CSS for styling
 import targetIcon from "../../assets/images/target.png";
 import ideaIcon from "../../assets/images/idea.png";
-import gaugeIcon from "../../assets/images/gauge.png";
+import discussionIcon from "../../assets/images/discussion.png";
 
 const AdvertisingSolutions = () => {
   return (
@@ -16,21 +16,21 @@ const AdvertisingSolutions = () => {
               {/* Add your first icon here */}
               <img src={targetIcon} alt="Hyper Targeting" />
             </div>
-            <h4>Hyper Targeting</h4>
+            <h4>Targeted Advertising</h4>
           </div>
           <div className="col-md-4">
             <div className="icon">
               {/* Add your second icon here */}
               <img src={ideaIcon} alt="Dynamic Content Serving" />
             </div>
-            <h4>Dynamic Content Serving</h4>
+            <h4>Dynamic Ads</h4>
           </div>
           <div className="col-md-4">
             <div className="icon">
               {/* Add your third icon here */}
-              <img src={gaugeIcon} alt="Measurement + Attribution" />
+              <img src={discussionIcon} alt="Measurement + Attribution" />
             </div>
-            <h4>Measurement + Attribution</h4>
+            <h4>Customer Engagement</h4>
           </div>
         </div>
       </div>
