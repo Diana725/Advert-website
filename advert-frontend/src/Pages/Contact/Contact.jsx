@@ -60,12 +60,14 @@ const ContactForm = () => {
     <div style={styles.container}>
       <ContactHero />
       <div>
-        <h2>Get Started Advertising With AdLite Today!</h2>
+        <h2 className="fs-1">Start Advertising With AdLite Today!</h2>
       </div>
       <div style={styles.contentWrapper}>
         {/* Contact Form Section */}
         <div style={styles.formWrapper}>
-          <h1 style={styles.header}>Contact Us</h1>
+          <h1 style={styles.header} className="fs-3">
+            Contact Us
+          </h1>
           <form onSubmit={handleSubmit} style={styles.form}>
             <div style={styles.formGroup}>
               <label htmlFor="name" style={styles.label}>
@@ -117,11 +119,18 @@ const ContactForm = () => {
 
         {/* Social Media Section */}
         <div style={styles.socialWrapper}>
+          <br />
+          <br />
           <h3 style={styles.socialHeader}>Connect with us via social media</h3>
-          <p className="fs-5">
+          <p className="fs-6">
             Connect with us and we will get back to you as soon as possible. We
             are excited to work with you.{" "}
           </p>
+          <br />
+          <br />
+          <h3 style={styles.socialHeader}>Contact Information:</h3>
+          <p className="fs-6">Email: adlitecabvertise@gmail.com </p>
+          <p className="fs-6">Phone: 0700 012 012 </p>
           <div style={styles.iconsContainer}>
             <a
               href="https://web.facebook.com/adlitemedia?_rdc=1&_rdr"
@@ -203,9 +212,11 @@ const styles = {
     marginBottom: "5px",
     fontWeight: "bold",
     color: "#555",
+    fontSize: 14,
   },
   input: {
     width: "100%",
+    height: 35,
     padding: "10px",
     fontSize: "1em",
     borderRadius: "5px",
@@ -224,8 +235,8 @@ const styles = {
     resize: "vertical",
   },
   button: {
-    padding: "10px 20px",
-    fontSize: "1.2em",
+    padding: "7px 16px",
+    fontSize: 14,
     color: "#fff",
     backgroundColor: "#007BFF",
     border: "none",
@@ -235,7 +246,7 @@ const styles = {
   },
   response: {
     marginTop: "15px",
-    fontSize: "1.1em",
+    fontSize: 12,
     color: "#28a745",
   },
   socialWrapper: {
@@ -248,17 +259,17 @@ const styles = {
     alignItems: "center",
   },
   socialHeader: {
-    fontSize: "30px",
+    fontSize: 27,
     marginBottom: "20px",
   },
   iconsContainer: {
     display: "flex",
     justifyContent: "center",
-    gap: "50px",
+    gap: "40px",
   },
   icon: {
-    width: "50px",
-    height: "50px",
+    width: "30px",
+    height: "30px",
     cursor: "pointer",
     transition: "transform 0.3s",
   },

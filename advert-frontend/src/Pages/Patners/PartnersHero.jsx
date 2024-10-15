@@ -18,7 +18,7 @@ const PartnersHero = () => {
         <div className="container text-center partner-hero-content">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="display-4 fw-bold advert-hero-title">
+              <h1 className="display-4 fw-bold advert-hero-title fs-1">
                 Our Partners & Clients
               </h1>
             </div>

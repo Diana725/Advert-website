@@ -9,15 +9,18 @@
 
 .ad-solutions .icon {
     margin-bottom: 10px;
+    /* height: 20px; */
 }
-
+/* .step-imgs{
+  height: 20px;
+} */
 .ad-solutions h4 {
     margin-top: 10px;
     font-weight: 600;
 }
 
 .ad-solutions img {
-    max-width: 80px; /* Adjust the size based on your icons */
+    max-width: 40px; /* Adjust the size based on your icons */
     height: auto;
 }
 
@@ -32,9 +35,9 @@
   }
   
   .stacked-image {
-    width: 600px; /* Ensures both images take the same width as the original single image */
+    width: 450px; /* Ensures both images take the same width as the original single image */
     object-fit: cover;
-    height: 200px; /* Ensures the images maintain aspect ratio and cover the space */
+    height: 120px; /* Ensures the images maintain aspect ratio and cover the space */
   }
   
   .mb-3 {
@@ -43,3 +46,16 @@
   .background-img{
     background-image: url(../../assets/images/about-section.jpg);
   }
+.first-img{
+  width: 500px;
+}
+
+.icon-container {
+  text-align: center; /* Center-align text below icons */
+}
+
+.step-imgs {
+  max-width: 100%; /* Ensure images don't exceed the container's width */
+  height: auto; /* Maintain aspect ratio */
+  /* Optionally, set a specific height if needed */
+}

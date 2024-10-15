@@ -14,7 +14,7 @@ import ContactForm from "./Pages/Contact/Contact.jsx";
 function App() {
   return (
     <BrowserRouter>
-      <div className="d-flex flex-column min-vh-100">
+      <div className="d-flex flex-column min-vh-75 max-vh-75">
         {/* <Navbar /> */}
         <div className="flex-grow-1">
           <Routes>

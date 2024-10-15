@@ -7,4 +7,9 @@
   .mission-section h2 {
     color: #333;
   }
+  .custom-width {
+    max-width: 800px; /* Make the container smaller */
+    width: 100%; /* Ensures responsiveness */
+    margin: 0 auto; /* Center the container */
+  }
   

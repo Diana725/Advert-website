@@ -1,6 +1,6 @@
 /* General styling for advertising formats */
 /* .advertising-formats {
-    padding: 20px;
+    padding: 0px;
   } */
   
   /* Styling each format section */
@@ -14,8 +14,8 @@
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     color: white;
     position: relative;
     z-index: 1; /* Ensures the title is above the background */
@@ -44,7 +44,7 @@
     z-index: 1;
     font-size: 50px;
     /* margin-top: 30px; */
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   
   .text-content p {
@@ -118,4 +118,17 @@
   .contact-button button:hover {
     background-color: #27ae60;
   }
+  .ad-img{
+    width: 400px;
+  }
+
+  /* .coordinated{
+    padding-left: 10px;
+  }
+
+  @media (max-width: 576px) {
+    .coordinated{
+      padding-left: 10px;
+    }
+  } */
   

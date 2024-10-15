@@ -18,9 +18,11 @@ const HeroSection = () => {
         <div className="container text-center hero-content">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="display-4 fw-bold">Street Level Advertising</h1>
-              <p className="lead">Reach Your Audience Anytime Anywhere!</p>
-              <a href="/contact" className="btn btn-primary btn-lg mt-3">
+              <h1 className="display-4 fw-bold fs-1">
+                Street Level Advertising
+              </h1>
+              <p className="lead fs-5">Reach Your Audience Anytime Anywhere!</p>
+              <a href="/contact" className="btn btn-primary btn-lg mt-3 fs-6">
                 Advertise With Us
               </a>
             </div>

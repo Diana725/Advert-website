@@ -1,0 +1,12 @@
+.carousel-img {
+    width: 100%; /* Make images take full width of the column */
+    object-fit: cover;
+    height: auto; 
+  }
+  @media (max-width: 576px) {
+    .carousel-item .img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  

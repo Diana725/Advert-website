@@ -17,7 +17,9 @@ const Locations = () => {
   return (
     <section className="locations-section py-5">
       <div className="container">
-        <h2 className="text-center mb-4 display-5 fw-bold">Our Locations</h2>
+        <h2 className="text-center mb-4 display-5 fw-bold fs-2">
+          Our Locations
+        </h2>
         <div className="row">
           {locations.map((location, index) => (
             <div className="col-md-4 mb-4" key={index}>
@@ -33,7 +35,7 @@ const Locations = () => {
               </div>
               <h3
                 className="text-black fw-bold"
-                style={{ fontSize: "30px", paddingLeft: 150 }}
+                style={{ fontSize: 25, paddingLeft: 115 }}
               >
                 {location.name}
               </h3>

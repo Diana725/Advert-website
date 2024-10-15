@@ -18,7 +18,7 @@ const AboutHero = () => {
         <div className="container text-center about-hero-content">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="display-4 fw-bold advert-hero-title">
+              <h1 className="display-4 fw-bold advert-hero-title fs-1">
                 Get To Know Us
               </h1>
             </div>

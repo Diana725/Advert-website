@@ -6,7 +6,7 @@ import pic_2 from "../../assets/images/slide_2.jpeg";
 import pic_3 from "../../assets/images/slide_3.jpeg";
 import pic_4 from "../../assets/images/slide_4.jpeg";
 import pic_5 from "../../assets/images/slide_5.jpeg";
-import pic_6 from "../../assets/images/slide_6.jpeg";
+
 import pic_7 from "../../assets/images/slide_7.jpeg";
 import pic_8 from "../../assets/images/slide_8.jpeg";
 import pic_9 from "../../assets/images/slide_9.jpeg";
@@ -65,14 +65,7 @@ const AboutCarousel = () => {
             alt="Fourth slide"
           />
         </div>
-        <div className="carousel-item">
-          <img
-            src={pic_6}
-            className="d-block w-100"
-            style={{ maxHeight: 630 }}
-            alt="Fourth slide"
-          />
-        </div>
+
         <div className="carousel-item">
           <img
             src={pic_7}

@@ -6,37 +6,39 @@ import weather_triggered from "../../assets/images/maiko_img_7.jpeg";
 
 const OnCar = () => {
   return (
-    <section className="advertising-formats">
+    <section className="pb-4">
       <div className="container text-center">
         <br />
         <div className="row">
-          <div className="col-md-4">
+          {/* Location-Based Image */}
+          <div className="col-12 col-md-4 mb-4 mb-md-0">
             <div className="icon">
-              {/* Add your first icon here */}
               <img
                 src={location_based}
                 alt="Hyper Targeting"
-                className="taxi_top_img"
+                className="img-fluid taxi_top_img"
               />
             </div>
           </div>
-          <div className="col-md-4">
+
+          {/* Data-Triggered Image */}
+          <div className="col-12 col-md-4 mb-4 mb-md-0">
             <div className="icon">
-              {/* Add your second icon here */}
               <img
                 src={data_triggered}
                 alt="Dynamic Content Serving"
-                className="taxi_top_img"
+                className="img-fluid taxi_top_img"
               />
             </div>
           </div>
-          <div className="col-md-4">
+
+          {/* Weather-Triggered Image */}
+          <div className="col-12 col-md-4 mb-4 mb-md-0">
             <div className="icon">
-              {/* Add your third icon here */}
               <img
                 src={weather_triggered}
                 alt="Measurement + Attribution"
-                className="taxi_top_img"
+                className="img-fluid taxi_top_img"
               />
             </div>
           </div>

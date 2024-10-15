@@ -1,6 +1,5 @@
 import React from "react";
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import "bootstrap-icons/font/bootstrap-icons.css";
+import "./PartnersCarousel.css";
 import platinumIcon from "../../assets/images/ad-solutions.png";
 import avenueIcon from "../../assets/images/avenue_hospital.png";
 import marieStopes from "../../assets/images/maristopeslogo.png";
@@ -13,48 +12,70 @@ import fitnessIcon from "../../assets/images/k-fitness.png";
 import empawaIcon from "../../assets/images/empawa.jpeg";
 
 const ImageCarousel = () => {
+  const fixedImageHeight = 180; // Fixed image height
+
   return (
     <div id="imageCarousel" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         {/* Carousel Item 1 */}
         <div className="carousel-item active">
-          <div className="d-flex justify-content-center">
-            <div className="col-2">
+          <div className="d-flex flex-wrap justify-content-center">
+            <div className="col-6 col-md-2">
               <img
                 src={platinumIcon}
-                style={{ maxWidth: 250 }}
+                style={{
+                  width: 250,
+                  height: fixedImageHeight,
+                  objectFit: "contain",
+                }}
                 alt="Image 1"
                 className="img-fluid"
               />
             </div>
-            <div className="col-2">
+            <div className="col-6 col-md-2">
               <img
                 src={avenueIcon}
-                style={{ maxWidth: 250 }}
+                style={{
+                  width: 250,
+                  height: fixedImageHeight,
+                  objectFit: "contain",
+                }}
                 alt="Image 2"
                 className="img-fluid"
               />
             </div>
-            <div className="col-2">
+            <div className="col-6 col-md-2">
               <img
                 src={marieStopes}
-                style={{ maxWidth: 250 }}
+                style={{
+                  width: 250,
+                  height: fixedImageHeight,
+                  objectFit: "contain",
+                }}
                 alt="Image 3"
                 className="img-fluid"
               />
             </div>
-            <div className="col-2">
+            <div className="col-6 col-md-2">
               <img
                 src={hyssopIcon}
-                style={{ maxWidth: 250, maxHeight: 162 }}
+                style={{
+                  width: 250,
+                  height: fixedImageHeight,
+                  objectFit: "contain",
+                }}
                 alt="Image 4"
                 className="img-fluid"
               />
             </div>
-            <div className="col-2">
+            <div className="col-6 col-md-2">
               <img
                 src={wasiliIcon}
-                style={{ maxWidth: 250, maxHeight: 162 }}
+                style={{
+                  width: 250,
+                  height: fixedImageHeight,
+                  objectFit: "contain",
+                }}
                 alt="Image 5"
                 className="img-fluid"
               />
@@ -64,44 +85,64 @@ const ImageCarousel = () => {
 
         {/* Carousel Item 2 */}
         <div className="carousel-item">
-          <div className="d-flex justify-content-center">
-            <div className="col-2">
+          <div className="d-flex flex-wrap justify-content-center">
+            <div className="col-6 col-md-2">
               <img
                 src={maidaIcon}
-                style={{ maxWidth: 250 }}
+                style={{
+                  width: 250,
+                  height: fixedImageHeight,
+                  objectFit: "contain",
+                }}
                 alt="Image 6"
                 className="img-fluid"
               />
             </div>
-            <div className="col-2">
+            <div className="col-6 col-md-2">
               <img
                 src={phinelsIcon}
-                style={{ maxWidth: 250, maxHeight: 200 }}
+                style={{
+                  width: 250,
+                  height: fixedImageHeight,
+                  objectFit: "contain",
+                }}
                 alt="Image 7"
                 className="img-fluid"
               />
             </div>
-            <div className="col-2">
+            <div className="col-6 col-md-2">
               <img
                 src={optimumIcon}
-                style={{ maxWidth: 250 }}
+                style={{
+                  width: 250,
+                  height: fixedImageHeight,
+                  objectFit: "contain",
+                }}
                 alt="Image 8"
                 className="img-fluid"
               />
             </div>
-            <div className="col-2">
+            <div className="col-6 col-md-2">
               <img
                 src={fitnessIcon}
-                style={{ maxWidth: 270 }}
+                style={{
+                  width: 250,
+                  height: fixedImageHeight,
+                  objectFit: "contain",
+                }}
                 alt="Image 9"
                 className="img-fluid"
               />
             </div>
-            <div className="col-2">
+            <div className="col-6 col-md-2">
               <img
                 src={empawaIcon}
-                style={{ maxWidth: 270, maxHeight: 162 }}
-                alt="Image 9"
+                style={{
+                  width: 250,
+                  height: fixedImageHeight,
+                  objectFit: "contain",
+                }}
+                alt="Image 10"
                 className="img-fluid"
               />
             </div>

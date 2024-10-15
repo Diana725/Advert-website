@@ -27,8 +27,8 @@ function Navbar() {
       }`}
     >
       <div className="container">
-        <NavLink className="navbar-brand fw-bold fs-3 text-white" to="/">
-          <img src={logo_img} style={{ maxHeight: 60, paddingRight: 10 }} />
+        <NavLink className="navbar-brand fw-bold fs-4 text-white" to="/">
+          <img src={logo_img} style={{ maxHeight: 50, paddingRight: 10 }} />
           AdLite Media
         </NavLink>
 
@@ -45,14 +45,14 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item fs-5">
+            <li className="nav-item fs-6">
               <NavLink className="nav-link text-white" to="/">
                 Home
               </NavLink>
             </li>
 
             {/* Dropdown menu for 'Advertising' */}
-            <li className="nav-item dropdown fs-5">
+            <li className="nav-item dropdown fs-6">
               <NavLink
                 className="nav-link dropdown-toggle text-white"
                 id="advertisingDropdown"
@@ -67,32 +67,41 @@ function Navbar() {
                 aria-labelledby="advertisingDropdown"
               >
                 <li>
-                  <NavLink className="dropdown-item" to="/advertising-formats">
+                  <NavLink
+                    className="dropdown-item"
+                    style={{ fontSize: 13 }}
+                    to="/advertising-formats"
+                  >
                     Advertising Formats
                   </NavLink>
                 </li>
                 <li>
                   <NavLink
                     className="dropdown-item"
+                    style={{ fontSize: 13 }}
                     to="/advertising-solutions"
                   >
                     Advertising Solutions
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to="/partners-clients">
+                  <NavLink
+                    className="dropdown-item"
+                    style={{ fontSize: 13 }}
+                    to="/partners-clients"
+                  >
                     Partners & Clients
                   </NavLink>
                 </li>
               </ul>
             </li>
 
-            <li className="nav-item fs-5">
+            <li className="nav-item fs-6">
               <NavLink className="nav-link text-white" to="/about">
                 About
               </NavLink>
             </li>
-            <li className="nav-item fs-5">
+            <li className="nav-item fs-6">
               <NavLink className="nav-link text-white" to="/contact">
                 Contact
               </NavLink>

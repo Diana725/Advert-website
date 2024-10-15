@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-    transform: scale(0.8); /* Adjust the scale factor as needed */
-    transform-origin: top left;
+    /* transform: scale(0.8);
+    transform-origin: top left; */
 
 }
 

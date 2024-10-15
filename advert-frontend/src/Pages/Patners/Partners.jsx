@@ -3,6 +3,7 @@ import PartnersHero from "./PartnersHero";
 import partners from "../../assets/images/partners.png";
 // import "./PartnersCarousel";
 import ImageCarousel from "./PartnersCarousel";
+import Testimonials from "./testimonials";
 
 const Partners = () => {
   return (
@@ -13,13 +14,13 @@ const Partners = () => {
           <div className="row align-items-center">
             {/* <h1 fw-bold>Our Mission</h1> */}
             {/* Left Column: Image */}
-            <div className="col-md-6">
-              <h1 style={{ fontSize: 60 }}>Our Clients</h1>
+            <div className="col-md-5">
+              <h1 style={{ fontSize: 60, paddingLeft: 30 }}>Our Clients</h1>
             </div>
 
             {/* Right Column: Text and Button */}
             <div className="col-md-6">
-              <p className="lead">
+              <p className="lead fs-6">
                 Our clients and partners are brands that trust us to help them
                 connect more effectively with their customers and have
                 experienced the success of taxi advertising firsthand. We’ve
@@ -35,6 +36,7 @@ const Partners = () => {
         <img src={partners} alt="partners" style={{ maxWidth: 1200 }} />
       </div> */}
       <ImageCarousel />
+      <Testimonials />
     </div>
   );
 };

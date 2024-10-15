@@ -49,3 +49,6 @@
   opacity: 1;
   visibility: visible;
 }
+.navbar {
+  max-height: 50px;
+}
