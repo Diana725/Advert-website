@@ -1,6 +1,8 @@
 import React from "react";
 import PartnersHero from "./PartnersHero";
 import partners from "../../assets/images/partners.png";
+// import "./PartnersCarousel";
+import ImageCarousel from "./PartnersCarousel";
 
 const Partners = () => {
   return (
@@ -29,9 +31,10 @@ const Partners = () => {
           <hr />
         </div>
       </section>
-      <div className="my-5 container">
+      {/* <div className="my-5 container">
         <img src={partners} alt="partners" style={{ maxWidth: 1200 }} />
-      </div>
+      </div> */}
+      <ImageCarousel />
     </div>
   );
 };

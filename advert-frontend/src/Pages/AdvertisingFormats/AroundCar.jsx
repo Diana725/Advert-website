@@ -6,43 +6,16 @@ import complimentary_transport from "../../assets/images/complimentary-transport
 
 const AroundCar = () => {
   return (
-    <section className="advertising-formats">
+    <section>
       <div className="container text-center">
         <br />
-        <div className="row">
-          <div className="col-md-4">
-            <div className="icon">
-              {/* Add your first icon here */}
-              <img
-                src={coordinated_swarm}
-                alt="Coordinated_Swarm"
-                style={{ maxWidth: 500, maxHeight: 500 }}
-              />
-            </div>
-            <h4 style={{ color: "white" }}>Coordinated Swarm</h4>
-          </div>
-          <div className="col-md-4">
-            <div className="icon">
-              {/* Add your second icon here */}
-              <img
-                src={complimentary_transport}
-                alt="Complimentary_Transport"
-                style={{ maxWidth: 500, maxHeight: 500 }}
-              />
-            </div>
-            <h4 style={{ color: "white" }}>Complimentary Transport</h4>
-          </div>
-          <div className="col-md-4">
-            <div className="icon">
-              {/* Add your third icon here */}
-              <img
-                src={brand_ambassadors}
-                alt="Brand_Ambassadors"
-                style={{ maxWidth: 500, maxHeight: 500 }}
-              />
-            </div>
-            <h4 style={{ color: "white" }}>Brand Ambassadors</h4>
-          </div>
+        <div style={{ maxHeight: 600 }}>
+          <img
+            src={coordinated_swarm}
+            alt="Complimentary_Transport"
+            style={{ maxWidth: 600, maxHeight: 600 }}
+            className="around-car-img"
+          />
         </div>
       </div>
     </section>

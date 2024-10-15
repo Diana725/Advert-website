@@ -18,10 +18,8 @@ const AdvertisingFormatsHero = () => {
         <div className="container text-center advert-hero-content">
           <div className="row">
             <div className="col-md-12">
-              <h1
-                className="display-4 fw-bold"
-                style={{ backgroundColor: "#212529" }}
-              >
+              {/* Adding a background and text shadow for better visibility */}
+              <h1 className="display-4 fw-bold advert-hero-title">
                 Our Advertising Formats
               </h1>
             </div>

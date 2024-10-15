@@ -7,6 +7,7 @@ import digital_top from "../../assets/images/maiko_img_8.jpeg";
 import car_wrap from "../../assets/images/maiko_img_9.jpeg";
 import AroundCar from "./AroundCar";
 import { within } from "@testing-library/react";
+import Experiential from "./experiential";
 
 function AdvertisingFormats() {
   return (
@@ -38,10 +39,8 @@ function AdvertisingFormats() {
                 <OnCar />
               </p>
 
-              <section style={{ paddingBottom: 80 }}>
-                <h3 className="pb-5 fs-3 fw-bold" style={{ paddingTop: 10 }}>
-                  Why Taxi-Top Ads
-                </h3>
+              <section style={{ paddingBottom: 30 }}>
+                <h3 className="pb-4 fs-3 fw-bold">Why Taxi-Top Ads</h3>
                 <div>
                   <div className="row justify-content-space-between ">
                     {/* Right Column: Image (swapped) */}
@@ -51,8 +50,8 @@ function AdvertisingFormats() {
                         alt="Digital-Tops"
                         className="img-fluid rounded"
                         style={{
-                          maxWidth: 700,
-                          maxHeight: 700,
+                          maxWidth: 600,
+                          maxHeight: 600,
                           paddingLeft: 30,
                         }}
                       />
@@ -134,48 +133,50 @@ function AdvertisingFormats() {
                 of your campaign.
               </p>
               <br />
-              <p className="fw-bold fs-2">Why In-Car Ads? </p>
-              <div className="format-section text-content format-content">
-                <div className="row align-items-center justify-content-space-between ">
-                  {/* Right Column: Image (swapped) */}
-                  <div className="col-md-6 order-md-2">
-                    <img
-                      src={car_wrap}
-                      alt="Digital-Tops"
-                      className="img-fluid rounded"
-                      style={{
-                        maxWidth: 600,
-                        maxHeight: 600,
-                        paddingLeft: 50,
-                      }}
-                    />
-                  </div>
+              <section style={{ paddingBottom: 30 }}>
+                <h3 className="pb-4 fs-3 fw-bold">Why In-Car Ads?</h3>
+                <div>
+                  <div className="row justify-content-space-between ">
+                    {/* Right Column: Image (swapped) */}
+                    <div className="col-md-6 order-md-2">
+                      <img
+                        src={car_wrap}
+                        alt="In-car Ads"
+                        className="img-fluid rounded"
+                        style={{
+                          maxWidth: 550,
+                          maxHeight: 500,
+                          paddingLeft: 70,
+                        }}
+                      />
+                    </div>
 
-                  {/* Left Column: Text and Button (swapped) */}
-                  <div className="col-md-6 order-md-1">
-                    <ul className="fs-5">
-                      <li className="py-2">
-                        {" "}
-                        Get a direct interaction with your potential customers
-                      </li>
-                      <li className="py-3">
-                        {" "}
-                        Great platform for coming up with interactive and social
-                        ad campaigns (e.g scan QR code, USSD code)
-                      </li>
-                      <li className="py-3">
-                        {" "}
-                        Track the campaign through the various interactions
-                      </li>
-                      <li className="py-3">
-                        {" "}
-                        Passengers have extended exposure to your ad giving it
-                        better engagement and brand recall
-                      </li>
-                    </ul>
+                    {/* Left Column: Text and Button (swapped) */}
+                    <div className="col-md-6 order-md-1">
+                      <ul className="fs-5">
+                        <li className="py-2">
+                          {" "}
+                          Get a direct interaction with your potential customers
+                        </li>
+                        <li className="py-3">
+                          {" "}
+                          Great platform for coming up with interactive and
+                          social ad campaigns (e.g scan QR code, USSD code)
+                        </li>
+                        <li className="py-3">
+                          {" "}
+                          Track the campaign through the various interactions
+                        </li>
+                        <li className="py-3">
+                          {" "}
+                          Passengers have extended exposure to your ad giving it
+                          better engagement and brand recall
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
           </div>
           <div style={{ backgroundColor: "#212529" }}>
@@ -194,10 +195,7 @@ function AdvertisingFormats() {
             </p>
 
             <AroundCar />
-            <h2
-              className="format-title"
-              style={{ fontSize: 60, paddingTop: 20 }}
-            >
+            <h2 className="format-title" style={{ fontSize: 60 }}>
               Experiential Offering
             </h2>
             <p style={{ color: "white", paddingLeft: 50, fontSize: 20 }}>
@@ -209,7 +207,10 @@ function AdvertisingFormats() {
               solution. With endless possibilities, our innovative approach
               ensures your brand stands out and leaves a lasting impression.
             </p>
-            <AroundCar />
+            <h4 style={{ color: "white", paddingLeft: 730, paddingBottom: 20 }}>
+              Coordinated Swarms:
+            </h4>
+            <Experiential />
           </div>
         </section>
 

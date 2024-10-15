@@ -1,7 +1,7 @@
 import React from "react";
 import AboutHero from "./AboutHero";
 import "./About.css";
-import mission_image from "../../assets/images/pexels-ibrahimboran-296492.jpg";
+import mission_image from "../../assets/images/maiko_img_2.jpeg";
 import AboutCarousel from "./AboutCarousel";
 
 const About = () => {

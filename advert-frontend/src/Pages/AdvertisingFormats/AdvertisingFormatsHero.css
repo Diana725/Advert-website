@@ -40,3 +40,15 @@
     z-index: 1;
   }
   
+  .advert-hero-title {
+    /* Add a semi-transparent dark background */
+    background-color: rgba(0, 0, 0, 0.6); /* 60% transparency */
+    padding: 20px;
+    display: inline-block;
+    
+    /* Add text shadow to further enhance visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    
+    /* Optional: Make the font even bolder */
+    font-weight: 900;
+  }

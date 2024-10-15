@@ -3,14 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Locations.css";
 
 // Replace these with your actual image paths
-import imageNakuru from "../../assets/images/pexels-boa-vision-914571-2239598.jpg";
-import imageNairobi from "../../assets/images/pexels-boa-vision-914571-2239598.jpg";
-import imageMombasa from "../../assets/images/pexels-boa-vision-914571-2239598.jpg";
+import imageNakuru from "../../assets/images/maiko_img_nakuru.jpeg";
+import imageNairobi from "../../assets/images/maiko_img_nairobi.jpeg";
+import imageEldoret from "../../assets/images/maiko_img_eldoret.jpeg";
 
 const locations = [
   { name: "Nakuru", img: imageNakuru },
   { name: "Nairobi", img: imageNairobi },
-  { name: "Eldoret", img: imageMombasa },
+  { name: "Eldoret", img: imageEldoret },
 ];
 
 const Locations = () => {
@@ -25,18 +25,18 @@ const Locations = () => {
                 <img
                   src={location.img}
                   alt={location.name}
-                  className="img-fluid rounded"
+                  // style={{ maxHeight: 400 }}
+                  className="img-fluid rounded locations_img"
                 />
                 {/* Overlay */}
-                <div className=" position-absolute top-0 w-100 h-100 d-flex align-items-center justify-content-center">
-                  <h3
-                    className="text-white fw-bold"
-                    style={{ fontSize: "70px" }}
-                  >
-                    {location.name}
-                  </h3>
-                </div>
+                <div className=" position-absolute top-0 w-100 h-100 d-flex align-items-center justify-content-center"></div>
               </div>
+              <h3
+                className="text-black fw-bold"
+                style={{ fontSize: "30px", paddingLeft: 150 }}
+              >
+                {location.name}
+              </h3>
             </div>
           ))}
         </div>

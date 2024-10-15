@@ -8,6 +8,11 @@ import no_2 from "../../assets/images/number-2.png";
 import no_3 from "../../assets/images/number-3.png";
 import no_4 from "../../assets/images/number-4.png";
 import no_5 from "../../assets/images/number-5.png";
+import solutions_image_1 from "../../assets/images/maiko_img_14.jpeg";
+import solutions_image_2 from "../../assets/images/maiko_img_15.jpeg";
+import brandStudyIcon from "../../assets/images/profit.png";
+import footTrafficIcon from "../../assets/images/FootTrafficIcon.png";
+import webConversionsIcon from "../../assets/images/WebConversionIcon.png";
 
 const AdvertisingSolutions = () => {
   return (
@@ -45,18 +50,27 @@ const AdvertisingSolutions = () => {
         </div>
       </section>
 
-      <section className="mission-section py-5" style={{ marginTop: 60 }}>
+      <section className="mission-section py-5" style={{ marginTop: 40 }}>
         <div className="container">
           <div className="row align-items-center">
+            {/* Image Section */}
             <div className="col-md-6 order-md-2">
-              <img
-                src={solutions_image}
-                alt="Leverage TaxiAd"
-                className="img-fluid rounded"
-                style={{ paddingLeft: 40 }}
-              />
+              <div className="image-stack">
+                <img
+                  src={solutions_image_1}
+                  alt="Leverage TaxiAd Image 1"
+                  className="img-fluid rounded mb-3 stacked-image"
+                  // style={{ maxWidth: 500 }}
+                />
+                <img
+                  src={solutions_image_2}
+                  alt="Leverage TaxiAd Image 2"
+                  className="img-fluid rounded stacked-image"
+                />
+              </div>
             </div>
 
+            {/* Text Section */}
             <div className="col-md-6 order-md-1">
               <h2 className="display-5 fw-bold mb-5">Dynamic Ads</h2>
               <p className="lead">
@@ -143,6 +157,73 @@ const AdvertisingSolutions = () => {
           </div>
         </div>
       </section>
+      <div className="background-img">
+        <div className="container">
+          <h3
+            className="mb-4 fw-bold"
+            style={{ fontSize: 40, marginRight: 150 }}
+          >
+            Measurement Offerings:
+          </h3>
+
+          <section className="icon-section text-center">
+            <div className="row">
+              {/* Brand Study */}
+              <div className="col-md-4">
+                <div className="icon-box">
+                  <img
+                    src={brandStudyIcon} // Replace with your imported icon file path
+                    alt="Brand Study"
+                    className="img-fluid"
+                    style={{ height: "120px", width: "120px" }} // Set the size of the icon
+                  />
+                  <h4 className="mt-3 fw-bold">Brand Awareness</h4>
+                  <p style={{ fontSize: 18, paddingRight: 20 }}>
+                    Gain insights into how your brand is perceived in the
+                    market.
+                  </p>
+                </div>
+              </div>
+
+              {/* Foot Traffic */}
+              <div className="col-md-4">
+                <div className="icon-box px-2">
+                  <img
+                    src={footTrafficIcon} // Replace with your imported icon file path
+                    alt="Foot Traffic"
+                    className="img-fluid"
+                    style={{ height: "120px", width: "120px" }} // Set the size of the icon
+                  />
+                  <h4 className="mt-3 fw-bold">Foot Traffic</h4>
+                  <p style={{ fontSize: 18 }}>
+                    Measure the impact of your campaign on real-world foot
+                    traffic.
+                  </p>
+                </div>
+              </div>
+
+              {/* Web Conversions */}
+              <div className="col-md-4">
+                <div className="icon-box">
+                  <img
+                    src={webConversionsIcon} // Replace with your imported icon file path
+                    alt="Web Conversions"
+                    className="img-fluid"
+                    style={{ height: "120px", width: "120px" }} // Set the size of the icon
+                  />
+                  <h4 className="mt-3 fw-bold" style={{ paddingRight: 30 }}>
+                    Web Conversions
+                  </h4>
+                  <p style={{ fontSize: 18 }}>
+                    Track how your ads drive visitors to your site and convert
+                    leads.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
     </div>
   );
 };

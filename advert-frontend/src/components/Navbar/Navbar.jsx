@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-
+import logo_img from "../../assets/images/maiko_logo.jpeg";
 function Navbar() {
   const [navbarScrolled, setNavbarScrolled] = useState(false);
 
@@ -28,8 +28,10 @@ function Navbar() {
     >
       <div className="container">
         <NavLink className="navbar-brand fw-bold fs-3 text-white" to="/">
+          <img src={logo_img} style={{ maxHeight: 60, paddingRight: 10 }} />
           AdLite Media
         </NavLink>
+
         <button
           className="navbar-toggler"
           type="button"

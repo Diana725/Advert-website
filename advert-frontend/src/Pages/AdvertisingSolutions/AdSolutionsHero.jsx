@@ -18,7 +18,9 @@ const AdSolutionsHero = () => {
         <div className="container text-center ad-solution-hero-content">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="display-4 fw-bold">Our Advertising Solutions</h1>
+              <h1 className="display-4 fw-bold advert-hero-title">
+                Our Advertising Solutions
+              </h1>
             </div>
           </div>
         </div>

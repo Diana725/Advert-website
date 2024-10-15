@@ -20,4 +20,9 @@
   .location-card:hover .location-overlay {
     opacity: 1;
   }
+ .locations_img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+ }
   
