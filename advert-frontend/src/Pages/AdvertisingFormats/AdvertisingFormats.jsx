@@ -176,9 +176,13 @@ function AdvertisingFormats() {
         {/* Contact Button */}
         <div className="contact-button">
           <p className="fs-3 fw-bold">Want To Advertise With AdLite?</p>
-          <NavLink to="/contact">
-            <button className="mx-3 fs-6 mb-3">Contact Us</button>
-          </NavLink>
+          <a
+            href="/contact"
+            className="mx-3 fs-6 btn btn-success text-white"
+            style={{ maxHeight: 50 }}
+          >
+            Contact Us
+          </a>
         </div>
       </div>
     </div>

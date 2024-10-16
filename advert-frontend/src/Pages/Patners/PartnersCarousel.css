@@ -4,7 +4,7 @@
     height: auto; 
   }
   @media (max-width: 576px) {
-    .carousel-item .img-fluid {
+    .partners-carousel-item .img-fluid {
       max-width: 100%;
       height: auto;
     }

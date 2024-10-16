@@ -15,10 +15,14 @@ const ImageCarousel = () => {
   const fixedImageHeight = 180; // Fixed image height
 
   return (
-    <div id="imageCarousel" className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-inner">
+    <div
+      id="partnersCarousel"
+      className="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div className="carousel-inner partners-carousel-inner">
         {/* Carousel Item 1 */}
-        <div className="carousel-item active">
+        <div className="carousel-item partners-carousel-item active">
           <div className="d-flex flex-wrap justify-content-center">
             <div className="col-6 col-md-2">
               <img
@@ -84,7 +88,7 @@ const ImageCarousel = () => {
         </div>
 
         {/* Carousel Item 2 */}
-        <div className="carousel-item">
+        <div className="carousel-item partners-carousel-item">
           <div className="d-flex flex-wrap justify-content-center">
             <div className="col-6 col-md-2">
               <img
@@ -154,7 +158,7 @@ const ImageCarousel = () => {
       <button
         className="carousel-control-prev"
         type="button"
-        data-bs-target="#imageCarousel"
+        data-bs-target="#partnersCarousel"
         data-bs-slide="prev"
       >
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -163,7 +167,7 @@ const ImageCarousel = () => {
       <button
         className="carousel-control-next"
         type="button"
-        data-bs-target="#imageCarousel"
+        data-bs-target="#partnersCarousel"
         data-bs-slide="next"
       >
         <span className="carousel-control-next-icon" aria-hidden="true"></span>

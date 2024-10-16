@@ -1,0 +1,6 @@
+.vertical-line {
+    border-left: 2px solid #000; /* You can adjust the color and thickness */
+    height: 100%; /* Adjust height according to your need */
+    margin: 0 auto;
+  }
+  

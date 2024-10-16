@@ -47,13 +47,13 @@ const About = () => {
         <div className="container">
           <h2
             className="mt-5 fw-bold"
-            style={{ fontSize: 40, marginRight: 150 }}
+            style={{ fontSize: 40, marginRight: 120 }}
           >
             Why AdLite Media
           </h2>
           <h3
             className="mb-2 fw-bold"
-            style={{ fontSize: 25, marginRight: 150 }}
+            style={{ fontSize: 25, marginRight: 120 }}
           >
             To advertise brands by bringing dynamic and useful content to the
             streets of our cities.
