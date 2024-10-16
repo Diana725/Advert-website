@@ -45,15 +45,12 @@ function Navbar() {
           aria-expanded={isExpanded}
           aria-label="Toggle navigation"
         >
-          <span
-            className="navbar-toggler-icon"
-            style={{ maxWidth: 40, maxHeight: 40 }}
-          >
+          <div className="custom-icon">
             <img
               src={isExpanded ? CloseIcon : HamburgerIcon}
               alt="Toggle menu"
             />
-          </span>
+          </div>
         </button>
 
         <div
@@ -63,7 +60,7 @@ function Navbar() {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item fs-6">
               <NavLink
-                className="nav-link text-white"
+                className="nav-link text-white hover-effect"
                 to="/"
                 onClick={handleToggle}
               >
@@ -125,7 +122,7 @@ function Navbar() {
 
             <li className="nav-item fs-6">
               <NavLink
-                className="nav-link text-white"
+                className="nav-link text-white hover-effect"
                 to="/about"
                 onClick={handleToggle}
               >
@@ -134,7 +131,7 @@ function Navbar() {
             </li>
             <li className="nav-item fs-6">
               <NavLink
-                className="nav-link text-white"
+                className="nav-link text-white hover-effect"
                 to="/contact"
                 onClick={handleToggle}
               >

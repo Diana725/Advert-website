@@ -12,8 +12,12 @@
 }
 
 .advertising-formats .taxi_top_img {
-    max-width: 280px; /* Adjust the size based on your icons */
-    height: 200px;
+    max-width: 320px; /* Set the maximum width */
+    height: 200px; /* Set the height */
+    object-fit: contain; /* Ensures the entire image fits within the box */
+    object-position: center; /* Optional: centers the image within the box */
+    display: block; /* Ensures there are no extra spaces around the image */
+    margin: 0 auto; /* Centers the image horizontally */
 }
 .around-car-img{
     /* padding-left: 50px; */
@@ -27,3 +31,4 @@
     height: 500px;
     margin-right: 20px;
 } */
+

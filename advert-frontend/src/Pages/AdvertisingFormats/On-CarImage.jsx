@@ -16,7 +16,7 @@ const OnCar = () => {
               <img
                 src={location_based}
                 alt="Hyper Targeting"
-                className="img-fluid taxi_top_img"
+                className="img-fluid taxi_top_img" // Applied class
               />
             </div>
           </div>
@@ -27,7 +27,7 @@ const OnCar = () => {
               <img
                 src={data_triggered}
                 alt="Dynamic Content Serving"
-                className="img-fluid taxi_top_img"
+                className="img-fluid taxi_top_img" // Applied class
               />
             </div>
           </div>
@@ -38,7 +38,7 @@ const OnCar = () => {
               <img
                 src={weather_triggered}
                 alt="Measurement + Attribution"
-                className="img-fluid taxi_top_img"
+                className="img-fluid taxi_top_img" // Applied class
               />
             </div>
           </div>
