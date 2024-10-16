@@ -1,54 +1,59 @@
 /* Navbar CSS */
 .navbar {
-    background-color: rgba(28, 26, 26, 0.8); /* Black background with 50% opacity */
-    /* transition: background-color 0.3s ease; */
-  }
-  
-  .navbar.scrolled {
-    background-color: rgba(0, 0, 0, 0.8); /* Darker background when scrolling */
-  }
-  
-  .navbar .navbar-nav .nav-link {
-    color: white !important;
-  }
-  
-  .navbar .navbar-brand {
-    color: white !important;
-  }
+  background-color: rgba(28, 26, 26, 0.8); /* Black background with 80% opacity */
+  /* padding: 10px; */
+}
 
-  /* Ensure dropdown menu is hidden initially */
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker background when scrolling */
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar .navbar-brand {
+  color: white !important;
+  padding-right: 20px; /* Add right padding to logo */
+}
+
+.navbar .navbar-toggler {
+  border: none; /* Remove border for cleaner look */
+}
+
+.navbar-toggler-icon {
+  background-color: transparent; /* Set background to transparent */
+}
+
+/* Use custom icons instead of default */
+.navbar-toggler-icon img {
+  width: 20px; /* Adjust icon size */
+  height: 20px; /* Adjust icon size */
+}
+
 /* Dropdown menu styles */
 .nav-item .dropdown-menu {
-  background-color: black; /* Set dropdown background to black */
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-
-/* Dropdown item styles */
-.nav-item .dropdown-item {
-  color: white; /* Make dropdown items text white */
-}
-
-.nav-item .dropdown-item:hover {
-  background-color: rgba(255, 255, 255, 0.1); /* Change background on hover */
-  color: white;
-}
-
-/* Remove default 'preselected' active state */
-.nav-item .dropdown-item:focus,
-.nav-item .dropdown-item.active {
-  background-color: transparent; /* No background for active or focused items */
-  color: white; /* Keep the text color white */
+  background-color: rgba(0, 0, 0, 0.6); /* Darker translucent background */
 }
 
 /* Show dropdown on hover */
 .nav-item:hover .dropdown-menu {
-  display: block;
-  opacity: 1;
-  visibility: visible;
+  display: block; /* Ensure dropdown is shown on hover */
 }
-.navbar {
-  max-height: 50px;
+
+/* Ensure dropdown items have proper styling */
+.dropdown-item {
+  color: white; /* Ensures the text is white */
+}
+
+.dropdown-item:hover {
+  background-color: rgb(20, 19, 19); /* Change background on hover */
+  color: white;
+}
+
+/* Ensure logo adjusts correctly */
+.logo {
+  max-height: 40px; /* Adjust this value for a smaller logo */
+  width: auto; 
+  padding-right: 15px;/* Ensure the width adjusts with the height */
 }

@@ -30,9 +30,9 @@ const MissionSection = () => {
                 your brand’s story to the streets and bring it closer to your
                 potential customers.
               </p>
-              <NavLink to="/about" className="btn btn-success btn-lg mt-2 fs-6">
+              <a href="/about" className="btn btn-success btn-lg mt-2 fs-6">
                 Learn More
-              </NavLink>
+              </a>
             </div>
           </div>
         </div>
@@ -63,12 +63,13 @@ const MissionSection = () => {
                 advertising concept allows you to work within your budget while
                 maximizing impact.
               </p>
-              <NavLink
-                to="/advertising-formats"
+
+              <a
+                href="/advertising-formats"
                 className="btn btn-success btn-lg mt-2 fs-6"
               >
                 Learn More
-              </NavLink>
+              </a>
             </div>
           </div>
         </div>
