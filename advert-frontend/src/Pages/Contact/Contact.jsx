@@ -29,14 +29,17 @@ const ContactForm = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:8000/api/contact/send", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://www.adlitemedia.com:8000/api/contact/send",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       const data = await response.json();
 
