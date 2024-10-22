@@ -59,13 +59,13 @@ function Navbar() {
         >
           <ul className="navbar-nav ms-auto">
             <li className="nav-item fs-6">
-              <NavLink
+              <a
                 className="nav-link text-white hover-effect"
-                to="/"
+                href="/"
                 onClick={handleToggle}
               >
                 Home
-              </NavLink>
+              </a>
             </li>
 
             {/* Dropdown menu for 'Advertising' */}
@@ -88,55 +88,55 @@ function Navbar() {
                 aria-labelledby="advertisingDropdown"
               >
                 <li>
-                  <NavLink
+                  <a
                     className="dropdown-item"
                     style={{ fontSize: 13 }}
-                    to="/advertising-formats"
+                    href="/advertising-formats"
                     onClick={handleToggle}
                   >
                     Advertising Formats
-                  </NavLink>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     className="dropdown-item"
                     style={{ fontSize: 13 }}
-                    to="/advertising-solutions"
+                    href="/advertising-solutions"
                     onClick={handleToggle}
                   >
                     Advertising Solutions
-                  </NavLink>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     className="dropdown-item"
                     style={{ fontSize: 13 }}
-                    to="/partners-clients"
+                    href="/partners-clients"
                     onClick={handleToggle}
                   >
                     Partners & Clients
-                  </NavLink>
+                  </a>
                 </li>
               </ul>
             </li>
 
             <li className="nav-item fs-6">
-              <NavLink
+              <a
                 className="nav-link text-white hover-effect"
-                to="/about"
+                href="/about"
                 onClick={handleToggle}
               >
                 About
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item fs-6">
-              <NavLink
+              <a
                 className="nav-link text-white hover-effect"
-                to="/contact"
+                href="/contact"
                 onClick={handleToggle}
               >
                 Contact
-              </NavLink>
+              </a>
             </li>
           </ul>
         </div>

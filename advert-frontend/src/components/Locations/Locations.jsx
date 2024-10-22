@@ -22,21 +22,17 @@ const Locations = () => {
         </h2>
         <div className="row">
           {locations.map((location, index) => (
-            <div className="col-md-4 mb-4" key={index}>
+            <div className="col-md-4 mb-4 text-center" key={index}>
               <div className="location-card position-relative">
                 <img
                   src={location.img}
                   alt={location.name}
-                  // style={{ maxHeight: 400 }}
                   className="img-fluid rounded locations_img"
                 />
                 {/* Overlay */}
-                <div className=" position-absolute top-0 w-100 h-100 d-flex align-items-center justify-content-center"></div>
+                <div className="position-absolute top-0 w-100 h-100 d-flex align-items-center justify-content-center"></div>
               </div>
-              <h3
-                className="text-black fw-bold"
-                style={{ fontSize: 25, paddingLeft: 115 }}
-              >
+              <h3 className="text-black fw-bold mt-2" style={{ fontSize: 25 }}>
                 {location.name}
               </h3>
             </div>

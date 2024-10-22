@@ -18,7 +18,7 @@ const AdvertisingSolutions = () => {
   return (
     <div>
       <AdSolutionsHero />
-      <h1 className="container fw-bold fs-1" style={{ fontSize: 55 }}>
+      <h1 className="container fw-bold fs-1">
         Street Level Advertising
         <hr />
       </h1>
@@ -35,8 +35,10 @@ const AdvertisingSolutions = () => {
 
             {/* Right Column: Text and Button */}
             <div className="col-md-6" style={{ paddingLeft: 10 }}>
-              <h2 className="display-5 fw-bold mb-2 fs-2">Bigger Audience</h2>
-              <p className="lead pt-4 fs-6">
+              <h2 className="display-5 fw-bold mt-3 mb-1 fs-2">
+                Bigger Audience
+              </h2>
+              <p className="lead pt-3 fs-6">
                 Taxis are constantly on the move, covering every corner of the
                 city and passing through high-traffic areas like the CBD and
                 residential estates. Operating day and night, they provide
@@ -50,7 +52,7 @@ const AdvertisingSolutions = () => {
         </div>
       </section>
 
-      <section className="mission-section py-1" style={{ marginTop: 40 }}>
+      <section className="mission-section py-1" style={{ marginTop: 5 }}>
         <div className="container">
           <div className="row align-items-center">
             {/* Image Section */}
@@ -72,7 +74,7 @@ const AdvertisingSolutions = () => {
 
             {/* Text Section */}
             <div className="col-md-6 order-md-1">
-              <h2 className="display-5 fw-bold mb-3 fs-2">Dynamic Ads</h2>
+              <h2 className="display-5 fw-bold mb-3 mt-3 fs-2">Dynamic Ads</h2>
               <p className="lead fs-6">
                 Marketing is about standing out and reaching your target
                 audience—something taxi advertising excels at. With our

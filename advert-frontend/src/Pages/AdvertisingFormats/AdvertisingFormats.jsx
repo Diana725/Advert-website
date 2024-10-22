@@ -26,7 +26,7 @@ function AdvertisingFormats() {
           <div className="format-content">
             <div className="text-content">
               <h2 className="fs-2">Taxi Tops</h2>
-              <p className="fs-6">
+              <p className="fs-6 mb-0">
                 Our taxi tops serve as your ‘mobile billboards,’ providing a
                 double-sided platform to showcase your brand on the move, day
                 and night. Strategically designed and angled for maximum
@@ -144,42 +144,50 @@ function AdvertisingFormats() {
 
         {/* Around-Car Advertising */}
         <div style={{ backgroundColor: "#212529" }}>
-          <h2 className="format-title fs-1" style={{ paddingTop: 70 }}>
-            AdLite Around-Car Advertising
-          </h2>
-          <p style={{ color: "white", paddingLeft: 50 }} className="fs-6">
-            For larger campaigns, we offer full taxi wraps combined with taxi
-            top and in-car displays for maximum visibility. Let our taxis become
-            your mobile billboards, providing expansive space to showcase your
-            brand and reach a wider audience.
-          </p>
+          <div className="text-center text-md-center">
+            <h2 className="format-title fs-1" style={{ paddingTop: 70 }}>
+              AdLite Around-Car Advertising
+            </h2>
+            <p className="fs-6" style={{ color: "white" }}>
+              For larger campaigns, we offer full taxi wraps combined with taxi
+              top and in-car displays for maximum visibility. Let our taxis
+              become your mobile billboards, providing expansive space to
+              showcase your brand and reach a wider audience.
+            </p>
+          </div>
 
           <AroundCar />
-          <h2 className="format-title fs-1">Experiential Marketing</h2>
-          <p style={{ color: "white", paddingLeft: 50 }} className="fs-6">
-            Beyond offering a platform, taxi advertising allows for immersive
-            experiential marketing campaigns. Whether it’s a roadshow for your
-            company launch, making a statement at your events, or executing
-            creative campaigns, our taxis provide a unique and flexible
-            solution. With endless possibilities, our innovative approach
-            ensures your brand stands out and leaves a lasting impression.
-          </p>
-          <h4
-            className="coordinated"
-            style={{ color: "white", paddingLeft: 40, paddingBottom: 5 }}
-          >
-            Coordinated Swarms:
-          </h4>
+
+          <div className="text-center text-md-center">
+            <h2 className="format-title fs-1">Experiential Marketing</h2>
+            <p className="fs-6" style={{ color: "white" }}>
+              Beyond offering a platform, taxi advertising allows for immersive
+              experiential marketing campaigns. Whether it’s a roadshow for your
+              company launch, making a statement at your events, or executing
+              creative campaigns, our taxis provide a unique and flexible
+              solution. With endless possibilities, our innovative approach
+              ensures your brand stands out and leaves a lasting impression.
+            </p>
+            <h4
+              className="coordinated fs-5"
+              style={{ color: "white", paddingBottom: 5 }}
+            >
+              Coordinated Swarms:
+            </h4>
+          </div>
+
           <Experiential />
         </div>
 
         {/* Contact Button */}
         <div className="contact-button">
-          <p className="fs-3 fw-bold">Want To Advertise With AdLite?</p>
+          <p className="fs-3 fw-bold" style={{ paddingLeft: 15 }}>
+            Want To Advertise With AdLite?
+          </p>
           <a
             href="/contact"
-            className="mx-3 fs-6 btn btn-success text-white"
-            style={{ maxHeight: 50 }}
+            className="mx-4 fs-6 btn btn-success text-white text-center d-flex align-items-center px-3 py-1"
+            style={{ maxHeight: 60 }}
           >
             Contact Us
           </a>

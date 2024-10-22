@@ -43,3 +43,25 @@
     z-index: 1;
     background-color: rgba(19, 35, 220, 0.8)
   }
+
+  @media (max-width: 768px) {
+    .hero-image {
+      background-size: cover; /* Makes sure the image fits smaller screens */
+      background-position: 20%;
+      height: 100vh;
+      filter: brightness(0.5);
+    transition: transform 0.4s ease-in-out; /* Adjust height for mobile */
+    }
+  
+    .hero-section .display-4 {
+      font-size: 1.8rem; /* Adjust the font size for smaller screens */
+    }
+  
+    .hero-section .lead {
+      font-size: 1.2rem;
+    }
+  
+    .hero-section .btn {
+      font-size: 1rem; /* Adjust button size for smaller screens */
+    }
+  }

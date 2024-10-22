@@ -41,3 +41,15 @@
     z-index: 1;
   }
   
+  @media (max-width: 768px) {
+    .contact-hero-image {
+      background-position: 33%; /* Focus on top for small screens */
+      background-size: cover;
+      height: 80vh; /* Adjust height for smaller screens */
+    }
+  
+    .contact-hero-section h1,
+    .contact-hero-section h2 {
+      font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+  }

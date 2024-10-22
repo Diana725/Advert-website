@@ -81,7 +81,7 @@
   max-height: 40px; /* Set a max height for the icons */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .navbar {
     background-color: rgba(0, 0, 0, 0.9); /* Darker background for mobile */
   }

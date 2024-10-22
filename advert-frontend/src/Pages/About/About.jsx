@@ -24,12 +24,12 @@ const About = () => {
 
             {/* Right Column: Text and Button */}
             <div className="col-md-6">
-              <h2 className="display-5 fw-bold fs-1 mb-2">
+              <h2 className="display-5 fw-bold fs-1  mt-3">
                 AdLite is the first-ever company that connects brands to
                 audiences through dynamic and innovative taxi advertising
                 platforms.
               </h2>
-              <br />
+              {/* <br /> */}
             </div>
           </div>
         </div>
@@ -46,14 +46,14 @@ const About = () => {
       <div className="background-img">
         <div className="container">
           <h2
-            className="mt-5 fw-bold"
-            style={{ fontSize: 40, marginRight: 120 }}
+            className="mt-5 fw-bold text-center text-md-start"
+            style={{ fontSize: 40 }}
           >
             Why AdLite Media
           </h2>
           <h3
-            className="mb-2 fw-bold"
-            style={{ fontSize: 25, marginRight: 120 }}
+            className="mb-2 fw-bold text-center text-md-start pl-md-5"
+            style={{ fontSize: 25 }}
           >
             To advertise brands by bringing dynamic and useful content to the
             streets of our cities.

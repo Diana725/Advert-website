@@ -15,7 +15,9 @@ const Partners = () => {
             {/* <h1 fw-bold>Our Mission</h1> */}
             {/* Left Column: Image */}
             <div className="col-md-5">
-              <h1 style={{ fontSize: 60, paddingLeft: 30 }}>Our Clients</h1>
+              <h1 style={{ fontSize: 50 }} className="text-center">
+                Our Clients
+              </h1>
             </div>
 
             {/* Right Column: Text and Button */}

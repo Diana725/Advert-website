@@ -25,12 +25,12 @@
     width: 100%; /* Full width to cover the container */
     height: 100%; 
     object-fit: cover;
-    max-height: 400px; /* Ensure images match the reduced height */
+    max-height: none; /* Ensure images match the reduced height */
   }
 }
 
 /* Optional: Adjust carousel controls for better visibility */
 .carousel-control-prev,
 .carousel-control-next {
-  filter: invert(1); /* Makes the control icons more visible */
+  filter: invert(1);/* Makes the control icons more visible */
 }

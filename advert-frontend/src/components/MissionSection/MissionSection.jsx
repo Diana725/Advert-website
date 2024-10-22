@@ -18,7 +18,7 @@ const MissionSection = () => {
                 style={{ width: 500 }} /* Responsive to container */
               />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 mt-3 mt-md-0">
               <h2 className="display-5 fw-bold mb-4 fs-1">
                 Our Mission At AdLite Media
               </h2>
@@ -50,7 +50,7 @@ const MissionSection = () => {
                 style={{ width: 500 }} /* Responsive to container */
               />
             </div>
-            <div className="col-md-6 order-md-1">
+            <div className="col-md-6 order-md-1 mt-3 mt-md-0">
               <h2 className="display-5 fw-bold mb-4 fs-1">
                 Why Taxi Advertising
               </h2>
