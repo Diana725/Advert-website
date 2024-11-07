@@ -9,6 +9,7 @@ import CloseIcon from "../../assets/images/cross.png"; // Adjust the path as nee
 function Navbar() {
   const [navbarScrolled, setNavbarScrolled] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false); // NEW STATE for dropdown
 
   const handleScroll = () => {
     setNavbarScrolled(window.scrollY > 50);
@@ -16,6 +17,11 @@ function Navbar() {
 
   const handleToggle = () => {
     setIsExpanded(!isExpanded);
+    setIsDropdownOpen(false); // Close dropdown if navbar is toggled
+  };
+
+  const handleDropdownToggle = () => {
+    setIsDropdownOpen(!isDropdownOpen);
   };
 
   useEffect(() => {
@@ -75,16 +81,16 @@ function Navbar() {
                 id="advertisingDropdown"
                 to="#"
                 role="button"
-                aria-expanded={isExpanded}
+                aria-expanded={isDropdownOpen} // Now controlled by separate state
                 onClick={(e) => {
                   e.preventDefault(); // Prevent default link behavior
-                  setIsExpanded(!isExpanded); // Toggle the dropdown on click
+                  handleDropdownToggle(); // Toggle the dropdown on click
                 }}
               >
                 Advertising
               </NavLink>
               <ul
-                className={`dropdown-menu ${isExpanded ? "show" : ""}`}
+                className={`dropdown-menu ${isDropdownOpen ? "show" : ""}`} // Control dropdown with new state
                 aria-labelledby="advertisingDropdown"
               >
                 <li>
@@ -92,7 +98,10 @@ function Navbar() {
                     className="dropdown-item"
                     style={{ fontSize: 13 }}
                     href="/advertising-formats"
-                    onClick={handleToggle}
+                    onClick={() => {
+                      handleDropdownToggle(); // Close dropdown on link click
+                      handleToggle(); // Close navbar for mobile
+                    }}
                   >
                     Advertising Formats
                   </a>
@@ -102,7 +111,10 @@ function Navbar() {
                     className="dropdown-item"
                     style={{ fontSize: 13 }}
                     href="/advertising-solutions"
-                    onClick={handleToggle}
+                    onClick={() => {
+                      handleDropdownToggle();
+                      handleToggle();
+                    }}
                   >
                     Advertising Solutions
                   </a>
@@ -112,7 +124,10 @@ function Navbar() {
                     className="dropdown-item"
                     style={{ fontSize: 13 }}
                     href="/partners-clients"
-                    onClick={handleToggle}
+                    onClick={() => {
+                      handleDropdownToggle();
+                      handleToggle();
+                    }}
                   >
                     Partners & Clients
                   </a>

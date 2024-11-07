@@ -1,13 +1,13 @@
-/* Navbar CSS */
+/* Navbar Base Styles */
 .navbar {
   background-color: rgba(28, 26, 26, 0.9); /* Black background with 80% opacity */
-  /* padding: 10px; */
 }
 
 .navbar.scrolled {
   background-color: rgba(0, 0, 0, 0.8); /* Darker background when scrolling */
 }
 
+/* Navbar links */
 .navbar .navbar-nav .nav-link {
   color: white !important;
 }
@@ -25,45 +25,7 @@
   display: none;
 }
 
-/* Use custom icons instead of default */
-/* .navbar-toggler-icon img {
-  width: 30px; 
-  height: 30px; 
-}  */
-
-/* Dropdown menu styles */
-.nav-item .dropdown-menu {
-  background-color: rgba(0, 0, 0, 0.8); /* Darker translucent background */
-}
-
-/* Show dropdown on hover */
-.nav-item:hover .dropdown-menu {
-  display: block; /* Ensure dropdown is shown on hover */
-}
-.nav-item:hover .hover-effect{
-  background-color: rgb(14, 14, 14); 
-}
-
-/* Ensure dropdown items have proper styling */
-.dropdown-item {
-  color: white; /* Ensures the text is white */
-}
-
-.dropdown-item:hover {
-  background-color: rgb(14, 14, 14); /* Change background on hover */
-  color: white;
-}
-
-/* Ensure logo adjusts correctly */
-.logo {
-  max-height: 40px; /* Adjust this value for a smaller logo */
-  width: auto; 
-  padding-right: 15px;/* Ensure the width adjusts with the height */
-}
-.navbar-toggler {
-  border: none; /* Remove border for a cleaner look */
-}
-
+/* Custom Icon for Hamburger and Close */
 .custom-icon {
   background-color: white; /* White background for the icon */
   border-radius: 5px; /* Optional: Rounded corners */
@@ -81,12 +43,51 @@
   max-height: 40px; /* Set a max height for the icons */
 }
 
-@media (max-width: 576px) {
+/* Adjust logo size */
+.logo {
+  max-height: 40px; /* Adjust the height for a smaller logo */
+  width: auto; 
+  padding-right: 15px; /* Ensure spacing between logo and links */
+}
+
+/* Dropdown Styles */
+.nav-item .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.8); /* Dark translucent background */
+  display: none; /* Hidden by default */
+}
+
+/* Show dropdown on hover for larger screens only */
+@media (min-width: 992px) {
+  .nav-item:hover .dropdown-menu {
+    display: block; /* Display dropdown on hover for large screens */
+  }
+}
+
+.nav-item:hover .hover-effect {
+  background-color: rgb(14, 14, 14); 
+}
+
+/* Dropdown item styles */
+.dropdown-item {
+  color: white !important;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(14, 14, 14); /* Change background on hover */
+  color: white;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 991.98px) {
   .navbar {
     background-color: rgba(0, 0, 0, 0.9); /* Darker background for mobile */
   }
 
   .navbar.scrolled {
     background-color: rgba(0, 0, 0, 0.9); /* Even darker when scrolling on mobile */
+  }
+
+  .collapse.show .dropdown-menu {
+    display: block; /* Display dropdown when expanded on mobile */
   }
 }
