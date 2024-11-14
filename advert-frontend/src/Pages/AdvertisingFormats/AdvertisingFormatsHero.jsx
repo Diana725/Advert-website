@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import hero_image from "../../assets/images/maiko_img_4.jpeg";
+import hero_image from "../../assets/images/maiko_img_4.jpg";
 import "./AdvertisingFormatsHero.css";
 import Navbar from "../../components/Navbar/Navbar";
 
