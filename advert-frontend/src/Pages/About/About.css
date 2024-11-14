@@ -11,7 +11,7 @@
   }
 
   .background-img{
-    background-image: url(../../assets/images/about-section.JPG);
+    background-image: url(../../assets/images/about-section.jpg);
   }
 
   .background-img::before {
